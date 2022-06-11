@@ -1,0 +1,23 @@
+<div class="rechargeDiv">
+    
+    <div class="innerRechargeDiv">
+        <div class="heading">
+            <span><marquee scrollamount="8">Recharge Your Wallet Through ICICI UPI Payment</marquee></span>
+        </div>
+        <form method="POST" ngNoForm id="form1" [action]="url">
+
+            <input type="hidden" name="walletClientCode" value="{{discomcode}}">
+            <input type="hidden" name="walletRequestMessage" value="{{datamsg}}">
+            <div>
+                <label for="amount" class="label-amount">Recharge Amount : <span class="amount">&#8377;
+                        {{amount}}</span></label>
+
+            </div>
+
+            <div class="sbmitBtn">
+                <input type="submit" value="Recharge">
+            </div>
+
+        </form>
+    </div>
+</div>
