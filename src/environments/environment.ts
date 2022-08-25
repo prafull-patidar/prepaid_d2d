@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  submitformurl:'https://demo.b2biz.co.in/ws/topup'
+  // submitformurl:'https://demo.b2biz.co.in/ws/topup'
+  submitformurl:'https://b2biz.co.in/ws/topup'
 };
 
 /*
